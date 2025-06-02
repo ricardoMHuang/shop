@@ -1,9 +1,9 @@
-package com.example.demo.dao;
+package com.example.demo.mapper;
 
 import com.example.demo.entity.ShopType;
 import com.example.demo.entity.ShopTypeExample;
 import java.util.List;
-import org.apache.ibatis.annotations.Param;
+import org.springframework.data.repository.query.Param;
 
 public interface ShopTypeMapper {
     long countByExample(ShopTypeExample example);

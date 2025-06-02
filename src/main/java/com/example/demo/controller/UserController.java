@@ -2,7 +2,7 @@ package com.example.demo.controller;
 
 import com.example.demo.service.UserService;
 import com.example.demo.util.Result;
-import io.swagger.annotations.Api;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/user")   // Base URL for all user-related endpoints
-@Api(tags = "用户操作")
+@Tag(name = "用户操作")
 public class UserController {
     @Autowired
     UserService userService;

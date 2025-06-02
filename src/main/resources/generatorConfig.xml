@@ -33,7 +33,7 @@
         </sqlMapGenerator>
         <!-- Java 客户端（DAO 接口）生成器 -->
         <javaClientGenerator type="XMLMAPPER"
-                             targetPackage="com.example.demo.dao"
+                             targetPackage="com.example.demo.mapper"
                              targetProject="src/main/java">
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
