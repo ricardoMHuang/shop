@@ -25,9 +25,9 @@ logging:
   level:
     com:
       sky:
-        mapper: debug
-        service: info
-        controller: info
+        com.example.demo.mapper: debug
+        com.example.demo.service: info
+        com.example.demo.controller: info
 
 sky:
   jwt:

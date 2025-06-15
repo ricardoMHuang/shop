@@ -1,8 +1,7 @@
 package com.example.demo.service.impl;
-
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.example.demo.mapper.ShopMapper;
 import com.example.demo.entity.Shop;
+import com.example.demo.mapper.ShopMapper;
 import com.example.demo.service.ShopService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

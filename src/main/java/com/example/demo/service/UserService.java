@@ -1,6 +1,6 @@
 package com.example.demo.service;
 
-import com.example.demo.entity.User;
+import org.springframework.stereotype.Component;
 
 /**
  * @author 24109
@@ -8,6 +8,7 @@ import com.example.demo.entity.User;
  * @version 1.0
  * @since 1.0
  */
+@Component
 public interface UserService  {
 
 }

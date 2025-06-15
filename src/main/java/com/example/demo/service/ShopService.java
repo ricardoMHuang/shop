@@ -1,9 +1,10 @@
 package com.example.demo.service;
 
 import com.example.demo.entity.Shop;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
-
+@Component
 public interface ShopService {
     /**
      * 添加
